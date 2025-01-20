@@ -8,11 +8,11 @@ import asyncio
 
 # Load environment variables
 load_dotenv()
-BOT_TOKEN = os.getenv("7722891851:AAHmd49NuqXHrmQQb9f0HLgJtCwV6t1oUJU")
-API_ID = int(os.getenv("29788419"))
-API_HASH = os.getenv("64889bdac00a24eabcb02811da11a4f6")
-DB_URI = os.getenv("mongodb+srv://kiranpoo7ary:FPcsopE32NSR1zfP@cluster0.leb3q.mongodb.net/er4orthumb?retryWrites=true&w=majority")
-DB_NAME = os.getenv("er4orthumb")
+BOT_TOKEN = "7722891851:AAHmd49NuqXHrmQQb9f0HLgJtCwV6t1oUJU"
+API_ID = 29788419
+API_HASH = "64889bdac00a24eabcb02811da11a4f6"
+DB_URI = "mongodb+srv://kiranpoo7ary:FPcsopE32NSR1zfP@cluster0.leb3q.mongodb.net/er4orthumb?retryWrites=true&w=majority"
+DB_NAME = "er4orthumb"
 
 # Initialize MongoDB
 mongo_client = pymongo.MongoClient(DB_URI)
