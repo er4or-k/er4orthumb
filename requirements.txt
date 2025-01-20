@@ -1,0 +1,9 @@
+pyrogram
+pymongo
+python-dotenv
+Flask
+gunicorn
+pymongo[srv]
+dnspython
+tgcrypto
+Pillow
